@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="after.body.start">
+            <block class="GoAI\SmartProposals\Block\Script" name="goai_smart_proposals_script" template="GoAI_SmartProposals::script.phtml" />
+        </referenceContainer>
+    </body>
+</page>

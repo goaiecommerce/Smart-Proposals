@@ -1,0 +1,14 @@
+{
+  "name": "goai/smart-proposals",
+  "description": "GoAI Smart Proposals Module for Magento 2.",
+  "type": "magento2-module",
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "GoAI\\SmartProposals\\": ""
+    }
+  }
+}
